@@ -32,14 +32,14 @@ useEffect(()=>{
                         <diV className="col-md-4 ">
                             <div className="row">
                                 <div className="col-md-12 mx-auto">6.4</div>
-                                <div className="col-md-12 mx-auto"><b>Height</b></div>
+                                <div className="col-md-12 mx-auto"><b>HEIGHT</b></div>
                             </div>
                         </diV>
 
                         <diV className="col-md-4 ">
                             <div className="row">
                                 <div className="col-md-12 mx-auto">28Years</div>
-                                <div className="col-md-12 mx-auto"><b>Age</b></div>
+                                <div className="col-md-12 mx-auto"><b>AGE</b></div>
                             </div>
                         </diV>
                     </div>
