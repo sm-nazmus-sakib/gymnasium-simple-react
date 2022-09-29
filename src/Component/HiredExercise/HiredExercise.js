@@ -79,7 +79,7 @@ useEffect(()=>{
             </section>
             <br />
             <div className="HiredExerciseList">
-                <h4 className="text-danger">
+                <h4 className="text-dark">
                     <b> Exercise Details</b>
                 </h4>
             </div>
