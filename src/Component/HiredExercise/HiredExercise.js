@@ -51,12 +51,28 @@ useEffect(()=>{
             <section>
                 <div className="container">
                     <div className="row">
-                        <diV className="col-md-2 "><button className="rounded-rectangle bg-primary text-white pl-2" onClick={() => { setBreakTime(10) }}>10S</button></diV>
-                        <diV className="col-md-2 "><button className="rounded-rectangle bg-primary text-white pl-2 " onClick={() => { setBreakTime(20) }}>20S</button></diV>
-                        <diV className="col-md-2 "><button className="rounded-rectangle  bg-primary text-white pl-2" onClick={() => { setBreakTime(30) }}>30S</button></diV>
-                        <diV className="col-md-2 "><button className="rounded-rectangle bg-primary text-white pl-2" onClick={() => { setBreakTime(40) }}>40S</button></diV>
-                        <diV className="col-md-2 "><button className="rounded-rectangle  bg-primary text-white pl-2" onClick={() => { setBreakTime(50) }}>50S</button></diV>
-                        <diV className="col-md-2 "><button className="rounded-rectangle  bg-primary text-white pl-2" onClick={() => { setBreakTime(60) }}>60S</button></diV>
+                        <diV className="col-md-2 ">
+                            <button className="rounded-rectangle bg-primary text-white pl-2" onClick={() => { setBreakTime(10) }}>10S
+                            </button>
+                        </diV>
+                        <diV className="col-md-2 ">
+                            <button className="rounded-rectangle bg-primary text-white pl-2 " onClick={() => { setBreakTime(20) }}>20S
+                            </button>
+                        </diV>
+                        <diV className="col-md-2 ">
+                            <button className="rounded-rectangle  bg-primary text-white pl-2" onClick={() => { setBreakTime(30) }}>30S
+                            </button></diV>
+                        <diV className="col-md-2 ">
+                            <button className="rounded-rectangle bg-primary text-white pl-2" onClick={() => { setBreakTime(40) }}>40S
+                            </button>
+                        </diV>
+                        <diV className="col-md-2 ">
+                            <button className="rounded-rectangle  bg-primary text-white pl-2" onClick={() => { setBreakTime(50) }}>50S
+                            </button>
+                        </diV>
+                        <diV className="col-md-2 ">
+                            <button className="rounded-rectangle  bg-primary text-white pl-2" onClick={() => { setBreakTime(60) }}>60S
+                            </button></diV>
 
                     </div>
                 </div>
@@ -84,8 +100,11 @@ useEffect(()=>{
                 </div>
             </section>
 
-            <button className="btn btn-primary w-75 text-white mx-auto " id="liveToastBtn">Activity Complete</button>
-            <button className="btn btn-primary w-75 text-white mx-auto mt-3 " ><a href="question.html" className="text-decoration-none text-white">Question Answer</a></button>
+            <button className="btn btn-primary w-75 text-white mx-auto" id="liveToastBtn">Activity Complete
+            </button>
+            <button className="btn btn-primary w-75 text-white mx-auto mt-3 " >
+                <a href="question.html" className="text-decoration-none text-white">Question Answer</a>
+            </button>
         </div>
     );
 };
