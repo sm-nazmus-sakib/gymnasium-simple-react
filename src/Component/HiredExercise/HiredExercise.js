@@ -18,53 +18,36 @@ useEffect(()=>{
 
     return (
         <div className="container HiredExercise  border rounded shadow p-3 rounded">
-             {/* <section>
-                <div className="container p-2">
-                    <div className="row">
-                        <div className="col-md-3">
-                            <img className="img-fluid rounded-circle" src="https://media.istockphoto.com/photos/portrait-of-a-german-businessman-with-beard-picture-id480286744?k=20&m=480286744&s=612x612&w=0&h=5DDcUmTGneOREWsaL3p3AUypJa3Jk_-N9juIOhLW6XQ=" alt="" />
-                        </div>
-                        <div className="col-md-7  img-name"> 
-                        <h5>Nazmus Sakib</h5> 
-                        <p><small>Jessore, Bangladesh.</small></p>
-                        </div>
-                    </div>
-                </div>
-            </section>  */}
             <section>
                 <div className="container">
                     <div className="row bg-light text-dark p-2">
+
                         <diV className="col-md-4 ">
                             <div className="row">
                                 <div className="col-md-12 mx-auto">65Kg</div>
                                 <div className="col-md-12 mx-auto"><b>WEIGHT</b></div>
-
                             </div>
                         </diV>
+
                         <diV className="col-md-4 ">
                             <div className="row">
                                 <div className="col-md-12 mx-auto">6.4</div>
                                 <div className="col-md-12 mx-auto"><b>Height</b></div>
-
                             </div>
                         </diV>
+
                         <diV className="col-md-4 ">
                             <div className="row">
                                 <div className="col-md-12 mx-auto">28Years</div>
                                 <div className="col-md-12 mx-auto"><b>Age</b></div>
-
                             </div>
                         </diV>
-
-
                     </div>
                 </div>
             </section>
-            <h4>
-                <b>
-                    Add a Break   
-                </b>
-            </h4>
+
+            <h4><b>Add a Break</b></h4>
+
             <section>
                 <div className="container">
                     <div className="row">
