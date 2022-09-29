@@ -1,0 +1,11 @@
+.Exercise-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .HiredExercise-Container {
+    margin-right: 5px;
+  }
+  .Exercises-container {
+    display: flex;
+    justify-content: space-evenly;
+  }

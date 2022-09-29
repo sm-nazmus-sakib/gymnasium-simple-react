@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="question.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Question and Answer</h1>
+        <hr>
+        <div>
+            <h2>How Dose React Work?</h2>
+            <p>At its very core, React basically maintains a tree for you. This tree is able to do efficient diff computations on the nodes. Think of your HTML code as a tree. In fact, that is exactly how the browser treats your DOM (your rendered HTML on the browser). React allows you to effectively re-construct your DOM in JavaScript and push only those changes to the DOM which have actually occurred.</p>
+        </div>
+        <div>
+            <h2>Props vs State</h2>
+            <p>State is the local state of the component which cannot be accessed and modified outside of the component. It's equivalent to local variables in a function. Props, on the other hand, make components reusable by giving components the ability to receive data from their parent component in the form of props.</p>
+        </div>
+        <div>
+            <h2>Work of UseEffect</h2>
+            <p>
+                The useEffect hook allows components to react to lifecycle events such as mounting to the DOM, re-rendering, and unmounting. The return function is the cleanup function, or when the user leaves the page and the component will unmount. The array is the last part, and it is where you put the states that will update throughout the component's lifecycle. You can discard the array if your component won't update during its lifecycle.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p><small>Gymnasium. All rights reserved. ©2022.</small></p>
+    </footer>
+</body>
+</html>
